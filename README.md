@@ -11,7 +11,9 @@ SCTA introduces two key components: **Scene-Adaptive Prompting (SAP)**, which dy
 ## Method
 
 <p align="center">
-  <a href="assets/method_v13.png">Method Figure (PDF)</a>
+  <img src="assets/method_v13.png" width="100%" alt="Method overview"/>
+  <br/>
+  <a href="assets/method_v13.pdf">Download the method figure as PDF</a>
 </p>
 
 ## Main Results
