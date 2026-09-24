@@ -28,13 +28,3 @@ SCTA introduces two key components: **Scene-Adaptive Prompting (SAP)**, which dy
 <p align="center">
   <img src="assets/qualitative_result.png" width="100%"/>
 </p>
-
-## Citation
-
-```bibtex
-@inproceedings{scta2027,
-  title={Scene-Adaptive Continual Test-Time Adaptation for Open-Vocabulary Remote Sensing Segmentation},
-  booktitle={ICASSP},
-  year={2027}
-}
-```
