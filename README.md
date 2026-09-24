@@ -11,7 +11,7 @@ SCTA introduces two key components: **Scene-Adaptive Prompting (SAP)**, which dy
 ## Method
 
 <p align="center">
-  <img src="assets/method.png" width="90%"/>
+  <a href="method_v13.pdf">Method Figure (PDF)</a>
 </p>
 
 ## Main Results
@@ -26,5 +26,5 @@ SCTA introduces two key components: **Scene-Adaptive Prompting (SAP)**, which dy
 ## Qualitative Results
 
 <p align="center">
-  <img src="assets/qualitative_result.png" width="100%"/>
+  <img src="qualitative_result_v3.png" width="100%"/>
 </p>
