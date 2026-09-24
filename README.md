@@ -1,20 +1,24 @@
-# SCTA
+<h1 align="center">
+  Scene-Adaptive Continual Test-Time Adaptation for Open-Vocabulary Remote Sensing Segmentation
+</h1>
 
-**SCENE-ADAPTIVE CONTINUAL TEST-TIME ADAPTATION FOR OPEN-VOCABULARY REMOTE SENSING SEGMENTATION**
+<h2 align="center">
+  🌟 ICASSP 2027 Submission 🌟
+</h2>
+
+<p align="center">
+  <img src="assets/method_v13.png" width="80%" alt="Overview of the SCTA framework">
+</p>
 
 ## Abstract
 
-Open-vocabulary remote sensing image segmentation (OVRSIS) enables flexible semantic understanding with vision-language models. However, existing methods usually rely on static inference or episodic adaptation, making them vulnerable to continuous distribution shifts in real-world test streams. We propose **SCTA**, a scene-adaptive continual test-time adaptation framework for open-vocabulary remote sensing segmentation.
+> Open-vocabulary remote sensing image segmentation (OVRSIS) enables flexible semantic understanding with vision-language models. However, existing methods usually rely on static inference or episodic adaptation, making them vulnerable to continuous distribution shifts in real-world test streams. We propose **SCTA**, a scene-adaptive continual test-time adaptation framework for open-vocabulary remote sensing segmentation.
+>
+> SCTA introduces two key components: **Scene-Adaptive Prompting (SAP)**, which dynamically adapts textual representations with scene-aware visual guidance, and **Semantic Drift Regulation (SDR)**, which preserves semantic consistency during continual adaptation through a reference-guided optimization objective. Together, SCTA improves adaptation stability while maintaining open-vocabulary segmentation capability under continuous corruptions.
 
-SCTA introduces two key components: **Scene-Adaptive Prompting (SAP)**, which dynamically adapts textual representations with scene-aware visual guidance, and **Semantic Drift Regulation (SDR)**, which preserves semantic consistency during continual adaptation through a reference-guided optimization objective. Together, SCTA improves adaptation stability while maintaining open-vocabulary segmentation capability under continuous corruptions.
+## Results
 
-## Method
-
-<p align="center">
-  <img src="assets/method_v13.png" width="100%" alt="Method overview"/>
-</p>
-
-## Main Results
+Continual test-time adaptation performance (mIoU, %):
 
 | Dataset | SAR | TENT | CoTTA | MLMP | TMPA | DAF | SCTA |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -26,5 +30,5 @@ SCTA introduces two key components: **Scene-Adaptive Prompting (SAP)**, which dy
 ## Qualitative Results
 
 <p align="center">
-  <img src="assets/qualitative_result_v3.png" width="100%" alt="Qualitative segmentation results"/>
+  <img src="assets/qualitative_result_v3.png" width="100%" alt="Qualitative segmentation results of SCTA and comparison methods">
 </p>
