@@ -16,8 +16,6 @@
 
 ## Results
 
-Continual test-time adaptation performance (mIoU, %). Best results are in **bold** and second-best results are <u>underlined</u>.
-
 | Dataset | Source | SAR | TENT | CoTTA | MLMP | TMPA | DAF | SCTA |
 |:---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | OpenEarthMap | <u>19.98</u> | 15.99 | 3.17 | 11.95 | 2.11 | 3.00 | 17.73 | **25.35** |
